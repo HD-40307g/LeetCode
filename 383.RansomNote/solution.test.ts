@@ -1,3 +1,5 @@
+import { canConstruct } from './solution';
+
 describe("canConstruct", () => {
     test("returns false when ransomNote cannot be constructed", () => {
         expect(canConstruct("a", "b")).toBe(false);

@@ -1,4 +1,4 @@
-function canConstruct(ransomNote: string, magazine: string): boolean {
+export function canConstruct(ransomNote: string, magazine: string): boolean {
     // Step 1: Create a frequency map for magazine
     const letterCount: { [key: string]: number } = {};
     
@@ -17,4 +17,4 @@ function canConstruct(ransomNote: string, magazine: string): boolean {
     
     // Step 3: If we pass through all letters in ransomNote, return true
     return true;
-}
+};
